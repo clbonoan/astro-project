@@ -21,7 +21,8 @@
     "url": "https://github.com/clbonoan/astro-project/issues"
   },
   "homepage": "https://github.com/clbonoan/astro-project#readme",
-  "dependencies": {
-    "astro": "^5.13.2"
+  "devDependencies": {
+    "@astrojs/node": "^9.4.3",
+    "astro": "^5.13.3"
   }
 }

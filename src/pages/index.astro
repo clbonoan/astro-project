@@ -1,7 +1,4 @@
 ---
-// Welcome to Astro! Everything between these triple-dash code fences
-// is your "component frontmatter". It never runs in the browser.
-console.log('This runs in your terminal, not the browser!');
 ---
 <!-- Below is your "component template." It's just HTML, but with
     some magic sprinkled in to help you build great templates. -->
@@ -15,3 +12,9 @@ console.log('This runs in your terminal, not the browser!');
     color: orange;
   }
 </style>
+
+<!-- create astro component with button that fetches a greeting using 
+ action when clicked -->
+<button id="greet">Get greeting</button>
+
+<script type="module" src="/src/scripts/greeting.ts"></script>
